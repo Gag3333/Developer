@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="I'm Gagik Umrshatyan and i'm 15 years old. I am a seasoned coder with over 2
+    years of
+    experience.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Գագիկ Ումրշատյան</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+	
+	<div class="background-site">
+		<div class="container">
+			<div class="btn-up btn-up_hide"><i class="fa-solid fa-arrow-up"></i></div>
+			<header id='home'>
+				<nav>
+					<ul class='nav-bar'>
+						<li class='nav-bar__logo'><a href='index-arm.html'>
+								<h1>Gagik</h1>
+								<h1>Umrshatyan</h1>
+							</a></li>
+						<input type='checkbox' id='check' />
+						<span class="nav-bar__menu">
+							<li><a href="#home">Գլխավոր</a></li>
+							<li><a href="#experience">Փորձառություն</a></li>
+							<li><a href="#projects">նախագծերը</a></li>
+							<li><a href="#contacts">Կապ</a></li>
+							<label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+							<button class="translate" id="en"><a href="index.html"><img src="en-flag.jpg" alt="ukflag" width="45px" height="30px"></a></button>
+                            <button class="translate" id="ru"><a href="index-ru.html"><img src="ru-flag.png" alt="ruflag" width="45px" height="30px"></a></button>
+                        </span>
+						<label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+					</ul>
+				</nav>
+				<div class="header__main">
+					<img class='logo' src="iconheader.png" alt="icon">
+					<div class='header__main__texts'>
+						<h1 class='header__main__prof'>Ես <span class='auto-name'></span> եմ</h1>
+						<span class='header__main__name'>Ես Գագիկ Ումրշատյանն եմ և 15 տարեկան։ Ես փորձառու կոդավորող եմ՝ ավելի քան 2 տարվա փորձով:</span>
+					</div>
+				</div>
+			</header>
+
+			<main id='experience' data-aos="fade-up"
+			data-aos-anchor-placement="top-bottom">
+				<div class="main__experience">
+					<h1 class='main__experience__tag'>Իմ<span> փորձերը</span></h1>
+					<div class="experience__icons">
+						<i class="fa-brands fa-html5"></i>
+						<i class="fa-brands fa-css3-alt"></i>
+						<i class="fa-brands fa-square-js"></i>
+						<i class="fa-brands fa-python"></i>
+						<i class="fa-brands fa-wordpress"></i>
+						<i class="fa-brands fa-php"></i>
+						<i class="fa-solid fa-database"></i>
+					</div>
+				</div>
+
+				<section class="main__projects" id='projects'>
+					<div class="projects__text" data-aos="fade-up"
+					data-aos-anchor-placement="top-bottom">
+						<h1 class='main__projects__tag'>նախագծեր</h1>
+						<span class='projects__more__information'>Իմ նախագծերի մասին լրացուցիչ տեղեկությունների համար գրեք ինձ...</span>
+					</div>
+					<div class="projects__articles">
+						<article class="main__project-1" data-aos="zoom-out-right">
+							<img src="Project1.PNG" alt="project-1">
+						</article>
+					</div>
+				</section>
+			</main>
+
+			<footer id='contacts'>
+				<img class='footer__icon' src="icon.png" alt="icon">
+				<div class="footer__social-networks">
+					<a href="https://www.instagram.com/gag_umrshatyan/" target='_blank'><i class="fa-brands fa-instagram" target='_blank'></i></a>
+					<a href="https://www.facebook.com/gagik.umrshatyan9?locale=hy_AM" target='_blank'><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://t.me/Gag00001" target='_blank'><i class="fa-brands fa-telegram"></i></a>
+					<a href="https://github.com/Gag3333" target='_blank'><i class="fa-brands fa-github"></i></a>
+				</div>
+				<div class="footer__contacts">
+					<h1 class='footer__contact__tag'>Կապ</h1>
+					<div class="footer__contacts__info">
+						<span><i class="fa-regular fa-envelope"></i>umrshartyangag@icloud.com</span>
+						<span><i class="fa-solid fa-phone-volume"></i>+374 98 69-78-32</span>
+					</div>
+				</div>
+			</footer>
+
+
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+		integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	<script src="script.js"></script>
+	<script>
+
+		var typed = new Typed('.auto-name', {
+			strings: ['Programmer', 'Developer', 'Coder'],
+			typeSpeed: 150,
+			backSpeed: 50,
+			looped: true,
+			shuffle: true,
+			cursorChar: '.',
+			showCursor: true
+		})
+	</script>
+</body>
+
+</html>
